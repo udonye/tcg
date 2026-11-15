@@ -11,27 +11,27 @@ import React, { useState, useEffect } from 'react';
     const [loading, setLoading] = useState(false);                                                               
     const [currentSlide, setCurrentSlide] = useState(0);                                                         
                                                                                                                  
-    const slides = [                                                                                             
+    const slides = [                                                                                               
       {                                                                                                          
-        image: 'linear-gradient(135deg, rgba(37, 99, 235, 0.8) 0%, rgba(96, 165, 250, 0.8) 100%)',               
+        image: 'url(https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=600&fit=crop)',        
         title: 'Explore New York',                                                                               
         subtitle: 'Experience the city that never sleeps',                                                       
         cta: 'Book Now'                                                                                          
       },                                                                                                         
       {                                                                                                          
-        image: 'linear-gradient(135deg, rgba(59, 130, 246, 0.8) 0%, rgba(96, 165, 250, 0.8) 100%)',              
+        image: 'url(https://images.unsplash.com/photo-1540959375944-7049f642e9d4?w=1200&h=600&fit=crop)',        
         title: 'Discover Hong Kong',                                                                             
         subtitle: 'Modern skyline meets ancient traditions',                                                     
         cta: 'Explore'                                                                                           
       },                                                                                                         
       {                                                                                                          
-        image: 'linear-gradient(135deg, rgba(37, 99, 235, 0.8) 0%, rgba(59, 130, 246, 0.8) 100%)',               
+        image: 'url(https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=1200&h=600&fit=crop)',           
         title: 'Qatar Airways',                                                                                  
         subtitle: '5-star luxury in the skies',                                                                  
         cta: 'Book Flight'                                                                                       
       },                                                                                                         
       {                                                                                                          
-        image: 'linear-gradient(135deg, rgba(96, 165, 250, 0.8) 0%, rgba(37, 99, 235, 0.8) 100%)',               
+        image: 'url(https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200&h=600&fit=crop)',           
         title: 'Singapore Airlines',                                                                             
         subtitle: 'Award-winning service worldwide',                                                             
         cta: 'Reserve Now'                                                                                       
