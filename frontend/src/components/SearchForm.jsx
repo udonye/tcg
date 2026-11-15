@@ -1,4 +1,4 @@
-  import React, { useState } from 'react';                                                                       
+import React, { useState } from 'react';                                                                       
                                                                                                                  
   function SearchForm({ onSearch, searchType }) {                                                                
     const [formData, setFormData] = useState({                                                                   
@@ -28,13 +28,13 @@
             <>                                                                                                   
               <div className="form-group">                                                                       
                 <label>From</label>                                                                              
-                <input type="text" name="from" placeholder="Departure city" value={formData.from}                
+                <input type="text" name="from" placeholder="Departure" value={formData.from}                     
 onChange={handleChange} required />                                                                              
               </div>                                                                                             
               <div className="form-group">                                                                       
                 <label>To</label>                                                                                
-                <input type="text" name="to" placeholder="Arrival city" value={formData.to}                      
-onChange={handleChange} required />                                                                              
+                <input type="text" name="to" placeholder="Arrival" value={formData.to} onChange={handleChange}   
+required />                                                                                                      
               </div>                                                                                             
               <div className="form-group">                                                                       
                 <label>Depart</label>                                                                            
@@ -52,7 +52,7 @@ onChange={handleChange} required />
             <>                                                                                                   
               <div className="form-group">                                                                       
                 <label>City</label>                                                                              
-                <input type="text" name="to" placeholder="Hotel city" value={formData.to} onChange={handleChange}
+                <input type="text" name="to" placeholder="City" value={formData.to} onChange={handleChange}      
 required />                                                                                                      
               </div>                                                                                             
               <div className="form-group">                                                                       
@@ -72,11 +72,9 @@ required />
             </>                                                                                                  
           )}                                                                                                     
         </div>                                                                                                   
-        <button type="submit" className="search-btn">Search {searchType === 'flights' ? 'Flights' :              
-'Hotels'}</button>                                                                                               
+        <button type="submit" className="search-btn">Search</button>                                             
       </form>                                                                                                    
     );                                                                                                           
   }                                                                                                              
                                                                                                                  
-  export default SearchForm;                                                                                     
-  EOF
+  export default SearchForm;
