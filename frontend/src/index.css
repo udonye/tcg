@@ -13,28 +13,4 @@
   html, body, #root {                                                                                            
     height: 100%;                                                                                                
     width: 100%;                                                                                                 
-  }                                                                                                              
-```                                                                                                              
-                                                                                                                 
-Commit changes.                                                                                                  
-                                                                                                                 
-Then fix Navbar.jsx: https://github.com/udonye/tcg/blob/main/frontend/src/components/Navbar.jsx                  
-                                                                                                                 
-Delete everything, paste:                                                                                        
-                                                                                                                 
-```javascript                                                                                                    
-  import React from 'react';                                                                                     
-                                                                                                                 
-  function Navbar() {                                                                                            
-    return (                                                                                                     
-      <nav className="navbar">                                                                                   
-        <div className="navbar-logo">TCG Travel</div>                                                            
-        <div className="navbar-right">                                                                           
-          <a href="#" className="nav-link">Flights</a>                                                           
-          <a href="#" className="nav-link">Hotels</a>                                                            
-        </div>                                                                                                   
-      </nav>                                                                                                     
-    );                                                                                                           
-  }                                                                                                              
-                                                                                                                 
-  export default Navbar;
+  }
